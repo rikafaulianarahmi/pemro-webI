@@ -1,4 +1,3 @@
-/* style.css */
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -13,19 +12,19 @@ h1, h2, h3, h4, .navbar-brand {
 }
 
 .hero h2 {
-  font-size: 2.2rem; /* Lebih besar dari h4 */
+  font-size: 2.2rem; 
   font-weight: bold;
 }
 
 .hero h4 {
-  font-size: 1.5rem; /* Sedikit lebih kecil dari h2 */
+  font-size: 1.5rem;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .hero p {
   font-size: 0.9rem;
-  letter-spacing: 3px;     /* Membuat tulisan melebar */
+  letter-spacing: 3px;     
   text-transform: uppercase;
   color: #aaa;
   margin-top: 10px;
