@@ -1,0 +1,108 @@
+/* style.css */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+.hero {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero h2 {
+  font-size: 2.2rem; /* Lebih besar dari h4 */
+  font-weight: bold;
+}
+
+.hero h4 {
+  font-size: 1.5rem; /* Sedikit lebih kecil dari h2 */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hero p {
+  font-size: 0.9rem;
+  letter-spacing: 3px;     /* Membuat tulisan melebar */
+  text-transform: uppercase;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer p {
+  color: #999; 
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+footer p strong {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  color: #555;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #000;
+}
+
+.filters button {
+  background: none;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  padding: 0.5rem 1rem;
+  margin: 5px;
+}
+.filters button:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.social-icons {
+  margin-top: 15px;
+}
+.social-icons a {
+  color: #555;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  color: #000;
+}
+.navbar-nav .nav-link {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
